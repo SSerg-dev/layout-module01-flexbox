@@ -27,7 +27,19 @@ body {
     border: solid 1px #57b25f;
     color: #57b25f;
     padding: 0.125em 0.75em ;
-    border-radius: 1em;
+    border-radius: 2em;
+}
+button {
+    border: none;
+    background-color: #ff8a66;
+    color: #fff;
+    font-family: "Raleway" serif;
+    text-transform: uppercase;
+    border-radius: 2em;
+    font-size: 13px;
+    padding: 1.3em 3em;
+    letter-spacing: 0.2em;
+    font-weight: 500;
 }
 .card {
     display: flex;
@@ -58,9 +70,17 @@ body {
 .card__text {
     margin: 0 0 15px;
 }
+.card__tags {
+    padding: 0;
+}
 .card__price {
-
+    color: #474747;
+    font-family: "Suranna" serif; 
+    font-size: 34px;
+     font-weight: bold;
 }
 .card__button {
-
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
